@@ -19,7 +19,3 @@ object Bst:
     def fromList[T: Ordering](list: List[T]): Bst[T] = ???
 
     def toList[T: Ordering](bst: Bst[T]): List[T] = ???
-
-object bstRun extends App:
-    val b = Bst.fromList(List(1, 2, 3, 4))
-    println(b)

@@ -1,6 +1,5 @@
 package scala_exercises
 package luhn
 
-object Luhn {
+object Luhn: 
     def valid(input: String): Boolean = ???
-}
